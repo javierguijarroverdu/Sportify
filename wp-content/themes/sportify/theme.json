@@ -1,0 +1,132 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"spacing": {
+			"units": ["px", "em", "rem", "vh", "vw", "%"],
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"palette": [
+				{
+					"slug": "naranja-corporativo",
+					"color": "#e30016",
+					"name": "Rojo Corporativo"
+				},
+				{
+					"slug": "gris-fondo",
+					"color": "#253137",
+					"name": "blanco"
+				}
+			]
+		},
+		"typography": {
+			"fluid": false,
+			"lineHeight": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "DM Sans",
+					"slug": "system-font",
+					"name": "System font",
+					"fontFace": [
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/build/WorkSans-BoldItalic.ttf"
+							]
+						}
+					]
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "867px",
+			"wideSize": "1504px"
+		}
+	},
+	"styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontWeight": "400"
+        },
+		"color": {
+			"background": "var(–wp–preset–color–white)"
+		}
+    }
+}

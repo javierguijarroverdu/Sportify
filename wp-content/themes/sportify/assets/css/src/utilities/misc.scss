@@ -1,0 +1,29 @@
+.hide-desktop {
+    @media (min-width: $tablet-breakpoint-max) {
+        display: none !important;
+    }
+}
+
+.hide-tablet {
+    @media (max-width: $tablet-breakpoint-min) and (min-width: $mobile-breakpoint-max) {
+        display: none !important;
+    }
+}
+
+.hide-mobile {
+    @media (max-width: $mobile-breakpoint-min) {
+        display: none !important;
+    }
+}
+
+.cta-showroom__column-text {
+    @media (min-width: $tablet-breakpoint-max) and (max-width: $breakpoint-sm-min) {
+        padding-bottom: 35px !important;
+    }
+
+    .cta-showroom__column-text--separator {
+        @media (min-width: $tablet-breakpoint-max) and (max-width: $breakpoint-sm-min) {
+            margin: 0 !important;
+        }
+    }
+}
