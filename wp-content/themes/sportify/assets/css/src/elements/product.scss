@@ -1,0 +1,162 @@
+/* Contenedor principal */
+.product-container .wp-block-columns.alignwide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+
+/* Columna de la galería de imágenes */
+.wp-block-column.is-layout-flow {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+}
+
+/* Galería de productos */
+.woocommerce-product-gallery {
+    position: relative;
+}
+
+.woocommerce-product-gallery__image {
+    margin-bottom: 15px;
+}
+
+.woocommerce-product-gallery__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.woocommerce-product-gallery__image img:hover {
+    transform: scale(1.05);
+}
+
+/* Información del producto */
+.wp-block-post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.wp-block-woocommerce-product-price {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.wp-block-post-excerpt__excerpt {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Formulario de añadir al carrito */
+.wp-block-add-to-cart-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.variations {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las celdas de encabezado */
+.variations th {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Estilo para las celdas de valor */
+.variations td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para los selectores de atributos */
+.variations select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Estilo para los enlaces "Limpiar" */
+.variations .reset_variations {
+    visibility: hidden;
+}
+
+/* Estilo para las opciones del select */
+.variations select option {
+    padding: 5px;
+}
+
+.quantity input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.single_add_to_cart_button {
+    background-color: #444444; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease-in-out; /* Transición suave del color de fondo */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.single_add_to_cart_button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+    color: #fff;
+}
+
+/* Metadatos del producto */
+.wp-block-woocommerce-product-meta {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wp-block-post-terms__prefix {
+    font-weight: bold;
+    color: #333;
+}
+
+.wp-block-post-terms a {
+    color: #0073aa;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.wp-block-post-terms a:hover {
+    color: #005177;
+}
+
+/* Nuevo estilo para el círculo de oferta */
+.woocommerce .wp-block-woocommerce-product-image-gallery span.onsale {
+    display: none;
+}
