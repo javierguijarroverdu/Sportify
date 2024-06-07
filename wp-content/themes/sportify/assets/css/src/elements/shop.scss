@@ -1,0 +1,170 @@
+/* General styles for the product grid */
+.columns-3.products-block-post-template {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product item styling */
+.columns-3.products-block-post-template li.product {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.columns-3.products-block-post-template li.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image styling */
+.columns-3.products-block-post-template .wc-block-components-product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Sale badge styling */
+.columns-3.products-block-post-template .wc-block-components-product-sale-badge {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: 2px solid #007bff; /* Borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+    text-transform: uppercase; /* Transformación del texto en mayúsculas */
+    text-decoration: none; /* Quita el subrayado del texto */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transiciones suaves */
+}
+
+.columns-3.products-block-post-template .wc-block-components-product-sale-badge:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+    border-color: #0056b3; /* Cambia el color del borde al pasar el cursor */
+}
+
+/* Product title styling */
+.columns-3.products-block-post-template h3.wp-block-post-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Product price styling */
+.columns-3.products-block-post-template .wc-block-components-product-price {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.columns-3.products-block-post-template .wc-block-components-product-price del {
+    color: #999;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.columns-3.products-block-post-template .wc-block-components-product-price ins {
+    color: #ff4c4c;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Add to cart button styling */
+.columns-3.products-block-post-template .wc-block-components-product-button .wp-block-button__link {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.columns-3.products-block-post-template .wc-block-components-product-button .wp-block-button__link:hover {
+    background-color: #555;
+}
+
+.columns-3.products-block-post-template .wc-block-components-product-button .added_to_cart {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Paginator styling */
+.wp-block-query-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.wp-block-query-pagination-numbers {
+    display: flex;
+    gap: 10px;
+}
+
+.wp-block-query-pagination-numbers .page-numbers {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-block-query-pagination-numbers .page-numbers.current {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.wp-block-query-pagination-numbers .page-numbers:hover {
+    background-color: #f0f0f0;
+}
+
+.wp-block-query-pagination-next,
+.wp-block-query-pagination-previous {
+    margin-left: 15px;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-block-query-pagination-next:hover,
+.wp-block-query-pagination-previous:hover {
+    background-color: #f0f0f0;
+}
+
+.wp-block-query-pagination-next .wp-block-query-pagination-next-arrow {
+    margin-left: 5px;
+}
+
+/* Select box styling */
+select.orderby {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select.orderby:focus {
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
