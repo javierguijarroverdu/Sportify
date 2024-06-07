@@ -71,6 +71,13 @@
     margin-bottom: 20px;
 }
 
+.variations tr {
+    display: flex !important;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 /* Estilo para las celdas de encabezado */
 .variations th {
     font-weight: bold;
@@ -81,6 +88,7 @@
 
 /* Estilo para las celdas de valor */
 .variations td {
+    display: flex;
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
@@ -100,7 +108,7 @@
 
 /* Estilo para los enlaces "Limpiar" */
 .variations .reset_variations {
-    visibility: hidden;
+    visibility: hidden !important;
 }
 
 /* Estilo para las opciones del select */
@@ -110,6 +118,7 @@
 
 .quantity input[type="number"] {
     width: 60px;
+    height: 35px;
     padding: 5px;
     margin-right: 10px;
     border: 1px solid #ddd;
