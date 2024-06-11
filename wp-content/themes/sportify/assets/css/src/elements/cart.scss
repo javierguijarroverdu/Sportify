@@ -1,0 +1,103 @@
+/* Estilo general del contenedor del carrito */
+.wp-block-woocommerce-cart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Estilo del encabezado del carrito */
+.wp-block-woocommerce-cart .wp-block-post-title {
+    color: #000000;
+    text-align: left;
+}
+
+/* Estilo de la tabla del carrito */
+.wp-block-woocommerce-cart .wc-block-cart-items {
+    margin-bottom: 20px !important;
+}
+
+/* Estilo de las filas y celdas de la tabla */
+.wp-block-woocommerce-cart .wc-block-cart-item__image img {
+    border-radius: 4px;
+}
+
+/* Estilo de los enlaces y botones */
+.wp-block-woocommerce-cart .wc-block-components-product-name,
+.wp-block-woocommerce-cart .wc-block-cart-item__remove-link,
+.wp-block-woocommerce-cart .wc-block-components-totals-coupon-link {
+    color: #000000;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.wp-block-woocommerce-cart .wc-block-components-product-name:hover,
+.wp-block-woocommerce-cart .wc-block-cart-item__remove-link:hover,
+.wp-block-woocommerce-cart .wc-block-components-totals-coupon-link:hover {
+    color: #0073aa;
+}
+
+.wp-block-woocommerce-cart .wc-block-components-totals-coupon__button .wc-block-components-button__text {
+    color: #fff;
+    background-color: #0073aa;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.wp-block-woocommerce-cart .wc-block-components-button__text:hover {
+    background-color: #006493;
+}
+
+/* Estilo de los campos de cantidad */
+.wp-block-woocommerce-cart .wc-block-components-quantity-selector__input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.wc-block-components-quantity-selector__button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wp-block-woocommerce-cart .wc-block-components-quantity-selector__button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.wp-block-woocommerce-cart .wc-block-components-quantity-selector__button:hover:not(:disabled) {
+    background-color: #0073aa;
+}
+
+/* Estilo de los totales del carrito */
+.wp-block-woocommerce-cart .wc-block-components-totals-wrapper {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón de finalizar compra */
+.wp-block-woocommerce-cart .wc-block-cart__submit-button.contained {
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.wp-block-woocommerce-cart .wc-block-cart__submit-button.contained:hover {
+    background-color: #006493;
+}
+
+.wp-block-woocommerce-cart .wc-block-cart__submit-button.contained.wc-block-components-button__text {
+    background-color: #006493 !important;
+}
