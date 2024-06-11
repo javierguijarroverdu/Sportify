@@ -30,10 +30,10 @@
 
 /* Sale badge styling */
 .columns-3.products-block-post-template .wc-block-components-product-sale-badge {
-    background-color: #007bff; /* Color de fondo del botón */
-    color: #fff; /* Color del texto */
+    background-color: #fff; /* Color de fondo del botón */
+    color: #43454b; /* Color del texto */
     padding: 10px 20px; /* Espaciado interno del botón */
-    border: 2px solid #007bff; /* Borde del botón */
+    border: 1px solid #43454b; /* Borde del botón */
     border-radius: 5px; /* Borde redondeado */
     font-weight: bold; /* Peso de la fuente */
     text-transform: uppercase; /* Transformación del texto en mayúsculas */
@@ -42,8 +42,8 @@
 }
 
 .columns-3.products-block-post-template .wc-block-components-product-sale-badge:hover {
-    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
-    border-color: #0056b3; /* Cambia el color del borde al pasar el cursor */
+    background-color: #dfdfdf; /* Color de fondo del botón al pasar el cursor */
+    border-color: #000000; /* Cambia el color del borde al pasar el cursor */
 }
 
 /* Product title styling */
