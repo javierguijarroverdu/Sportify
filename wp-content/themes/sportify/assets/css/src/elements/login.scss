@@ -1,0 +1,146 @@
+/* Contenedor principal */
+.account-container .uagb-container-inner-blocks-wrap {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo de encabezado */
+.account-container .woocommerce h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Estilo del formulario */
+.account-container .woocommerce-form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-container .woocommerce-form-row {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.account-container .woocommerce-form-row label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.account-container .woocommerce-Input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.account-container .password-input {
+    display: flex;
+    align-items: center;
+}
+
+.account-container .show-password-input {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #0073aa;
+}
+
+/* Estilo del checkbox */
+.account-container .woocommerce-form__label-for-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.account-container .woocommerce-form__label-for-checkbox input {
+    margin-right: 5px;
+}
+
+/* Estilo del botón */
+.account-container .woocommerce-form-login__submit {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.account-container .woocommerce-form-login__submit:hover {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+/* Enlace de contraseña perdida */
+.account-container .woocommerce-LostPassword {
+    margin-top: 10px;
+}
+
+.account-container .woocommerce-LostPassword a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.account-container .woocommerce-LostPassword a:hover {
+    text-decoration: underline;
+}
+
+/* Reset Password */
+
+/* Contenedor principal */
+.account-container .woocommerce {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.account-container form.woocommerce-ResetPassword.lost_reset_password {
+    padding: 20px;
+}
+
+/* Estilo del formulario */
+.account-container .woocommerce-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-container .woocommerce-form-row {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.account-container .woocommerce-form-row label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.account-container .woocommerce-Input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+.account-container .woocommerce-Button {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.account-container .woocommerce-Button:hover {
+    background-color: #006190;
+    color: #fff;
+}
