@@ -1,0 +1,52 @@
+/* Estilo del contenedor principal */
+.woocommerce-MyAccount-navigation-link a {
+    display: block;
+    padding: 10px 15px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none !important;
+}
+
+.woocommerce-MyAccount-navigation-link a:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.woocommerce-MyAccount-navigation-link.is-active a {
+    background-color: #000000;
+    color: #fff;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 64% !important;
+}
+
+/* Contenido de la cuenta */
+.woocommerce-MyAccount-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.woocommerce-MyAccount-content a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.woocommerce-MyAccount-content a:hover {
+    text-decoration: underline;
+}
+
+.woocommerce-MyAccount-content strong {
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .woocommerce-MyAccount-navigation,
+    .woocommerce-MyAccount-content {
+        width: 90% !important;
+        padding: 20px;
+    }
+}
