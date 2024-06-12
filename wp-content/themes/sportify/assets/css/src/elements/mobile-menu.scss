@@ -1,8 +1,3 @@
-/* Contenedor del contenido del menú */
-.wp-block-navigation__responsive-container-content {
-    padding: 20px;
-}
-
 /* Botón de cerrar */
 .wp-block-navigation__responsive-container-content .wp-block-navigation__responsive-container-close {
     position: absolute;
@@ -35,9 +30,8 @@
     font-weight: bold;
 }
 
-/* Estilo responsivo */
-@media (min-width: 768px) {
-    .wp-block-navigation__responsive-dialog {
-        display: none;
+@media (max-width: 768px) {
+    .wp-block-navigation__responsive-container-content {
+        padding: 20px;
     }
 }
