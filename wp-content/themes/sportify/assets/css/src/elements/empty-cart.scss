@@ -1,0 +1,24 @@
+/* Estilos para el texto */
+.wc-block-mini-cart__empty-cart-wrapper p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.wc-block-mini-cart__empty-cart-wrapper .wp-block-button__link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 1.2s ease-in !important;
+}
+
+.wc-block-mini-cart__empty-cart-wrapper .wp-block-button__link:hover {
+    background-color: #0073aa;
+    border: 2px solid white;
+    color: white;
+}
