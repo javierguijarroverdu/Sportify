@@ -1,0 +1,43 @@
+/* Contenedor del contenido del menú */
+.wp-block-navigation__responsive-container-content {
+    padding: 20px;
+}
+
+/* Botón de cerrar */
+.wp-block-navigation__responsive-container-content .wp-block-navigation__responsive-container-close {
+    position: absolute;
+    top: 20px;
+}
+
+/* Estilo para la imagen a poner en el menú */
+.wp-block-navigation__responsive-container-content .wp-block-group > .wp-block-image {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la lista del menú */
+.wp-block-navigation__responsive-container-content .wp-block-navigation-item {
+    margin: 15px 0;
+}
+
+.wp-block-navigation__responsive-container-content .wp-block-navigation-item__content {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.wp-block-navigation__responsive-container-content .wp-block-navigation-item__content:hover {
+    color: #0073aa !important;
+    text-decoration: none !important;
+}
+
+.wp-block-navigation__responsive-container-content .current-menu-item .wp-block-navigation-item__content {
+    font-weight: bold;
+}
+
+/* Estilo responsivo */
+@media (min-width: 768px) {
+    .wp-block-navigation__responsive-dialog {
+        display: none;
+    }
+}
