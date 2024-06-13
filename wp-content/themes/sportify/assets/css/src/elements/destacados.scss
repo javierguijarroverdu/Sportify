@@ -1,0 +1,21 @@
+.productos-destacados ul.products li.product .button {
+    display: block;
+    text-align: center;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.productos-destacados ul.products li.product .button:hover {
+    background-color: #005177;
+}
+
+.productos-destacados ul.products li.product .star-rating span {
+    color: #ffb400;
+}
+
+.productos-destacados span.onsale {
+    display: none;
+}
