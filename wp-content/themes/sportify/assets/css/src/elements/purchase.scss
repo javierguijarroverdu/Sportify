@@ -1,0 +1,88 @@
+/* Contenedor principal */
+.wp-block-woocommerce-checkout .wc-block-checkout__main {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+/* Formularios */
+.wp-block-woocommerce-checkout .wc-block-checkout__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre elementos del formulario */
+}
+
+.wp-block-woocommerce-checkout .wc-block-checkout__form input,
+.wp-block-woocommerce-checkout .wc-block-checkout__form textarea {
+    margin: 5px 0; /* Margen vertical */
+    border: 1px solid #ccc; /* Borde claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+/* Títulos */
+.wp-block-woocommerce-checkout .wc-block-components-title {
+    font-weight: bold; /* Negrita */
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-express-payment__event-buttons button:hover {
+    background-color: #005f8a; /* Fondo más oscuro al pasar el ratón */
+}
+
+/* Espacio para el botón de PayPal */
+.wp-block-woocommerce-checkout .paypal-buttons {
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Botón de volver al carrito */
+.wp-block-woocommerce-checkout .wc-block-components-checkout-return-to-cart-button:hover {
+    color: #2a2a2a;
+}
+
+/* Botón de realizar el pedido */
+.wp-block-woocommerce-checkout .wc-block-components-checkout-place-order-button {
+    background-color: #007cba; /* Fondo azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Manito de cursor */
+    transition: background-color 1s ease !important; /* Transición suave */
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-checkout-place-order-button:hover {
+    background-color: #005f8a; /* Fondo más oscuro al pasar el ratón */
+    color: white;
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-order-summary-item__individual-prices del {
+    margin-right: 5px;
+    color: #777;
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-order-summary-item__total-price {
+    font-weight: bold;
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-totals-coupon-link {
+    display: inline-block;
+    background-color: #007cba;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.wp-block-woocommerce-checkout .wc-block-components-totals-coupon-link:hover {
+    background-color: #005f8a;
+}
+
+/* Estilo de los totales */
+.wp-block-woocommerce-checkout .wc-block-components-totals-item {
+    padding: 10px 0;
+}
